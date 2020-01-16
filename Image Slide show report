@@ -1,0 +1,124 @@
+Introduction:
+Sliders are very popular on home pages of corporate websites. They are very useful for showing important information about a company. Generally, corporations will include an explanation of what the company does, a brief preview of the products, an explanation of what sets their products apart, and many further user options.Take a look below at the excellent use of the slider technique on Mint.com. This home page slider contains information explaining Mint and what you can do with the service. Also included are graphics, which provide a nice visual to back up the information. This is a very good use of the slider and is extremely convenient for new users on Mint looking to learn more quickly.
+
+Objective:
+The main objective of the project is of the Image Slideshow. A well-organized slide show allows a presenter to fit visual images to an oral presentation. The old adage "A picture is worth a thousand words" holds true, in that a single image can save a presenter from speaking a paragraph of descriptive details.
+•	Use one main message. Yes it's possible - focus!
+•	Keep the same content type on each slide. 
+Using a slide for a service, one for a news story and one for the contact doesn’t make sense. Why not give these items the space they deserve if they're that important.
+•	Give the user more control, disable auto magic slideshows.
+•	Use them for display purposes. 
+Use it for what it was designed for. Showing multiple versions of the similar thing for user to look at not as a method to take users to an end goal.
+
+
+
+ 
+3.Literature Survey:
+3.1.Existing System:
+•	The present system there was no slide movement dynamically.
+•	 Special effects was not used.
+•	 Not user friendly in  nature.
+•	 No images are displayed below the picture while running.
+ 4.System Architecture:
+4.1.Proposed System:
+Saves a lot of time and effort in putting a slideshow together. With this feature, you don't need to keep inserting pictures into individual slides. This can be a lot of work especially if you have lots of pictures you want to include in the album.
+ 4.2Hardware and Software Requirements:
+
+      Software requirements:
+      Languages                        :HTML,JavaScript,CSS
+       Operating System                    :Window 7 Higher Version
+     Editor			      : Notepad++
+     
+      Hardware requirements:
+       Processor                            :Core i5 processor
+       Hard Disk                           :2GB.
+       RAM                                  :2 GB
+ 
+4.3 Code of  project:
+<html>
+<title>Image Slide Show</title>
+<head><link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script></head>
+<body bgcolOr="lightblue">
+<center><h1>Image Slide Show</h1></center>
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+<li><img src="data1/images/save_girl_child_101.png" alt="save girl child " title="save girl child " id="wows1_0"/></li>
+<li><img src="data1/images/baby.jpg" alt="Save Girl Child" title="Save Girl Child" id="wows1_1"/></li>
+<li><img src="data1/images/save_girl_child_16.png" alt="save girl child " title="save girl child " id="wows1_2"/></li>
+	<li><img src="data1/images/savegirlchild.jpg" alt="Save-Girl-Child" title="Save-Girl-Child" id="wows1_3"/></li>
+<li><img src="data1/images/save_girl_child1.jpg" alt="save girl child" title="save girl child" id="wows1_4"/></li>
+<li><img src="data1/images/save_girl_child_32.png" alt="save girl child " title="save girl child " id="wows1_5"/></li>
+<li><img src="data1/images/save_girl_child_15.png" alt="Save Girl Child " title="Save Girl Child " id="wows1_6"/></li>
+<li><img src="data1/images/save_girl_child_2.jpg" alt="Save Girl Child " title="Save Girl Child " id="wows1_7"/></li>
+<li><img src="data1/images/save_girl_child_2_0.png" alt="Save Girl Child" title="Save Girl Child" id="wows1_8"/></li>
+<li><img src="data1/images/save_girl_child_6.png" alt="save girl child " title="save girl child " id="wows1_9"/></li>
+<li><img src="data1/images/successful_womens,,!.jpg" alt="Successful Womens,,!" title="Successful Womens,,!" id="wows1_10"/></li>
+<li><img src="data1/images/1.jpg" alt="Kalpana Chawla" title="Kalpana Chawla" id="wows1_11"/></li>
+<li><img src="data1/images/indira_gandhi.jpg" alt="indira gandhi" title="indira gandhi" id="wows1_12"/></li>
+<li><img src="data1/images/mother_teresa.jpg" alt="Mother Teresa" title="Mother Teresa" id="wows1_13"/></li>
+<li><img src="data1/images/latamangeshkar.jpg" alt="Lata-Mangeshkar" title="Lata-Mangeshkar" id="wows1_14"/></li>
+<li><img src="data1/images/p_v_sindu.jpg" alt="P v Sindu" title="P v Sindu" id="wows1_15"/></li>
+<li><a ef="http://wowslider.net"><img src="data1/images/sania_mirza_joins_leander_paes.jpg" alt="wow slider" title="Sania Mirza joins Leander Paes" id="wows1_16"/></a></li>
+<li><img src="data1/images/thank_you.jpg" alt="thank you" title="thank you" id="wows1_17"/></li></ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="save girl child "><span><img src="data1/tooltips/save_girl_child_101.png" alt="save girl child "/>1</span></a>
+<a href="#" title="Save Girl Child"><span><img src="data1/tooltips/baby.jpg" alt="Save Girl Child"/>2</span></a>
+<a href="#" title="save girl child "><span><img src="data1/tooltips/save_girl_child_16.png" alt="save girl child "/>3</span></a>
+<a href="#" title="Save-Girl-Child"><span><img src="data1/tooltips/savegirlchild.jpg" alt="Save-Girl-Child"/>4</span></a>
+<a href="#" title="save girl child"><span><img src="data1/tooltips/save_girl_child1.jpg" alt="save girl child"/>5</span></a>
+<a href="#" title="save girl child "><span><img src="data1/tooltips/save_girl_child_32.png" alt="save girl child "/>6</span></a>
+<a href="#" title="Save Girl Child "><span><img src="data1/tooltips/save_girl_child_15.png" alt="Save Girl Child "/>7</span></a>
+<a href="#" title="Save Girl Child "><span><img src="data1/tooltips/save_girl_child_2.jpg" alt="Save Girl Child "/>8</span></a>
+<a href="#"title="SaveGirlChild"><span><img src="data1/tooltips/save_girl_child_2_0.png" alt="Save Girl Child"/>9</span></a>
+<a href="#" title="save girl child "><span><img src="data1/tooltips/save_girl_child_6.png" alt="save girl child "/>10</span></a><a href="#"title="Successful Womens,,!"><span><img src="data1/tooltips/successful_womens,,!.jpg" alt="Successful Womens,,!"/>11</span></a>
+<a href="#" title="Kalpana Chawla"><span><img src="data1/tooltips/1.jpg" alt="Kalpana Chawla"/>12</span></a>
+<a href="#" title="indira gandhi"><span><img src="data1/tooltips/indira_gandhi.jpg" alt="indira gandhi"/>13</span></a>
+<a href="#" title="Mother Teresa"><span><img src="data1/tooltips/mother_teresa.jpg" alt="Mother Teresa"/>14</span></a>
+<a href="#" title="Lata-Mangeshkar"><span><img src="data1/tooltips/latamangeshkar.jpg" alt="Lata-Mangeshkar"/>15</span></a>
+<a href="#" title="P v Sindu"><span><img src="data1/tooltips/p_v_sindu.jpg" alt="P v Sindu"/>16</span></a>
+<a href="#" title="Sania Mirza joins Leander Paes"><span><img src="data1/tooltips/sania_mirza_joins_leander_paes.jpg" alt="Sania Mirza joins Leander Paes"/>17</span></a>
+<a href="#" title="thank you"><span><img src="data1/tooltips/thank_you.jpg" alt="thank you"/>18</span></a>
+</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">carousel jquery</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+</body>
+</html>
+ 
+4.4 Screen Shots:1
+ 
+
+Screen Shots: 2
+ 
+
+ 
+Screen Shots: 3
+ 
+
+Screen Shots:4
+ 
+
+ 
+Screen Shots:5
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+5 Reference: 
+https://www.google.com 
+www.wowslider.com
+https://youtu.be/dmbdq1iYL5w
+https://www.w3schools.com 
